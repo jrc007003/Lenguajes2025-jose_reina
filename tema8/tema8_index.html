@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina tema 5</title>
+    <style>
+    section {
+        display:flex;
+        width: 600px;
+        height: 530px;
+        padding: 1.5%;
+        margin-left:17.5% ;
+
+    }
+     section a{
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+        transition: .5s ease;
+    }
+     section a:hover{
+        cursor: crosshair;
+        width: 500px;
+        opacity: 1;
+        filter: contrast(120%);
+    }
+    footer{
+        text-align: center;
+        font-size:30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    header{
+        text-align: center;
+        box-shadow: 0 0 50px 10px;
+        border-radius: 10px;
+        background-color:#244f3f ;
+        padding: 1%;
+        border-color:#DAA520 ;
+        border-style: double;
+    }
+    body{
+        background-image: url(../fotos/background.png);
+        background-repeat: no-repeat;
+        background-size:cover ;
+
+    }
+    h1{
+        color: #DAA520;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    footer{
+        color: #DAA520;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    }
+    a{
+        color: #DAA520;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tema 8</h1>
+    </header>
+    <section>
+    <a href="./ajedrez/ajedrez.html"><img src="../fotos/ajedrez.png" alt="ajedrez" style="width: 600px;height: 530px;display: inline-block;"></a>
+    <a href="./html_explicativocss_T8/BoxModel/index.html"><img src="../fotos/explicacion_css.png" alt="explicativa_css" style="width: 600px;height: 530px;display: inline-block;"></a>
+    <a href="./cajas_css/index_cajas.html"><img src="../fotos/cajas_imagen.png" alt="cajas_css" style="width: 600px;height: 530px;display: inline-block;"></a>
+    <a href="./fuentes_css/fuentes.html"> <img src="../fotos/fuentes_css.png" alt="fuentes_css" style="width: 600px;height: 530px;display: inline-block;"></a>
+    <a href="./menu_iconos_css/index.html"><img src="../fotos/menu_iconos.png" alt="menu_iconos" style="width: 600px;height: 530px;display: inline-block;"></a>
+    </section>
+    <footer>
+         <h2>Volver al INDEX: </h2> <a href="../index.html">INDEX</a>
+    </footer>
+</body>
+</html>

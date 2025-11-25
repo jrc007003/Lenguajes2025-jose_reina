@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Sizing</title>
+    <meta name="author" content="José Carlos Reina Castro">
+    <style>
+        footer{
+            text-align: center;
+        }
+        header{
+            text-align: center;
+            background-color:skyblue;
+            box-shadow: 0 0 10px 1px;
+            border-radius: 10px;
+            padding: 1%;
+            background-size: auto;
+            margin: 10px;
+
+        }
+        nav{
+            display: inline-block;
+            background-color: aqua;
+            border-radius: 10px;
+            margin: 9px;
+            padding: 1%;
+        }
+        main{
+            text-align: center;
+            background-color: aliceblue;
+            border-radius: 10px;
+            box-shadow: 0 0 10px 1px;
+            padding: 1px;
+            margin: 10px;
+
+        }
+        ul{
+            text-align: justify;
+        }
+        .cajas{
+            list-style: none;
+            display: inline-block;
+            margin:30px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Box-sizing</h1>
+    <nav>Controla cómo se determinan sus dimensiones totales , incluyendo el ancho y la altura.</nav>
+</header>
+<main>
+    <section>
+        <ul>
+            <li>with 500px</li>
+            <li>height 100px</li>
+            <li>padding 10px</li>
+            <li>border 20px</li>
+        </ul>
+    </section>
+    <section>
+        <ul class="cajas">
+            <li class="cajas"><b>box-sizing:border-box</b></li>
+            <li class="cajas"><b>box-sizing:content-box</b></li>
+        </ul>
+    </section>
+</main>
+<footer>Autor : José Carlos Reina Castro</footer>
+</body>
+</html>

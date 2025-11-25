@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 2 </title>
+    <meta name="author" content="José Carlos Reina Castro">
+</head>
+<body>
+    <a href="../../tema5_index.html">Volver a la pág anterior</a>
+    <h1>Formulario de registro al curso</h1>
+    <form action="proceso.php" method="post"></form>
+    <label for="nombre">Nombre completo:(requerido)</label><br>
+    <input type="text" name="nombre" required><br><br>
+    <label for="correo">Correo electrónico:(requerido)</label><br>
+    <input type="email" name="email" id="email" required><br><br>
+    <label for="edad">Edad</label><br>
+    <input type="number" name="number" id="number" min="1" max="110" step="1"><br><br>
+    <label for="curso">Curso de interés:</label><br>
+    <select name="cursos" id="cursos">
+        <option value="Informática básica"> Informática básica</option>
+    </select>
+    <br>
+    <br>
+    <label for="turno">Turno preferido:</label><br>
+    <input type="radio" name="mañana" id="mañana" value="m">Mañana
+    <br>
+    <input type="radio" name="tarde" id="tarde" value="t">Tarde
+    <br>
+    <br>
+    <input type="checkbox" name="curso" id="curso">
+    <label for="condiciones">Acepto las condiciones del curso</label>
+    <br>
+    <br>
+ <label for="comentarios">Comentarios adicionales:</label><br>
+    <textarea name="comentario" id="comentario" cols="50" rows="5" placeholder="Escribe aquí tus dudas o preferencias..."></textarea><br>
+    <br>
+
+    <input type="submit" value="Enviar registro">
+    
+</body>
+</html>

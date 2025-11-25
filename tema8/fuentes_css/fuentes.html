@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuentes</title>
+    <meta name="author" content="José Carlos reina Castro">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <style>
+        body {
+            background-color: rgb(255, 255, 255);
+        }
+
+        .cabezera {
+            text-align: center;
+            background-color: rgb(0, 102, 255);
+            color: aliceblue;
+            padding: 4%;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .footer {
+            text-align: center;
+        }
+
+        main {
+            box-sizing: border-box;
+            background-color: white;
+            border-radius: 3%;
+            padding: 1%;
+            margin: 1%;
+            box-shadow: 0 0 10px 1px rgb(121, 121, 121)
+        }
+
+        .fuentesegura {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        @font-face {
+            font-family: FuenteNueva;
+            src: url(./Oswald/Oswald-VariableFont_wght.ttf)     
+         }
+
+        .font {
+            font-family: FuenteNueva;
+        }
+        .link{
+            font-family:"Sofia", sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="cabezera fuentesegura">
+        <h1>
+            Fuentes con <b>CSS</b><br>
+            <a href="../tema8_index.html">Volver a la pag anterior</a>
+        </h1>
+    </header>
+    <main>
+        <h2 class="fuentesegura">1.Fuente segura del sistema</h2>
+        <br>
+        <p class="fuentesegura">Este texto utiliza una fuente segura instalada en la mayoria de dispositivos(Georgia en
+            este caso), lo que grantiza su disponibilidad sin necesidad de descargarse.</p>
+        <br>
+        <h2 class="font">2.Fuente descargarda mediante @font-face</h2>
+        <br>
+        <p class="font">Este parrafo utiliza una fuente almecenada localmente en el proyecto e incorporada con la regla @font-face
+        </p>
+        <br>
+        <h2 class="link">3.Fuente enlazada desde google fonts</h2>
+        <br>
+        <p class="link">este texto emplea la fuente "Caesar dressing" cargada desde google fonts a través de un enlace en la
+            cabezera.</p>
+        <br>
+    </main>
+    <footer class="footer">
+        Autor : José Carlos Reina Castro
+    </footer>
+</body>
+
+</html>

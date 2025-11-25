@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <meta name="author" content="José Carlos Reina Castro">
+    <style>
+        footer {
+            text-align: center;
+        }
+
+        header {
+            text-align: center;
+            background-color: skyblue;
+            box-shadow: 0 0 10px 1px;
+            border-radius: 10px;
+            padding: 1%;
+            background-size: auto;
+            margin: 10px;
+
+        }
+
+        nav {
+            display: inline-block;
+            background-color: aqua;
+            border-radius: 10px;
+            margin: 9px;
+            padding: 1%;
+        }
+
+        main {
+            text-align: center;
+            background-color: aliceblue;
+            border-radius: 10px;
+            box-shadow: 0 0 10px 1px;
+            padding: 1px;
+            margin: 10px;
+
+        }
+
+        ul {
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Overflow</h1>
+        <nav>Controla el comportamiento de un contenedor cuando su contenido es más que el contenedor mismo y se
+            desborda.</nav>
+    </header>
+    <main>
+        <ul>
+            <li><b>Visible: </b>Este es el valor por defecto. El contenido que se desborda simplemente se muestra fuera
+                del contenedor, sobresaliendo visualmente.</li>
+            <li><b>Hidden: </b>El contenido que se desborda está oculto y no es visible. Esto puede ser útil cuando no
+                quieres que el contenido que sobresale sea visible.</li>
+            <li><b>Scroll: </b>Se agrega una barra de desplazamiento al contenedor, permitiendo al usuario desplazarse
+                para ver el contenido que está fuera de la vista.</li>
+            <li><b>Auto: </b>Similar a scroll, pero se agregarán barras de desplazamiento solo cuando sea necesario. Si
+                el contenido se ajusta dentro del contenedor, no se mostrarán barras de desplazamiento.</li>
+        </ul>
+    </main>
+    <footer>Autor : José Carlos Reina Castro</footer>
+</body>
+
+</html>

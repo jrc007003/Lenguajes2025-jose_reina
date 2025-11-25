@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sub Index tema Cajas css</title>
+    <meta name="author" content="José Carlos Reina Castro">
+    <style>
+    section {
+        display:flex;
+        width: 600px;
+        height: 530px;
+        padding: 1.5%;
+        margin-left:25% ;
+
+    }
+     section a{
+        width: 0px;
+        flex-grow: 1;
+        object-fit: cover;
+        opacity: .8;
+        transition: .5s ease;
+    }
+     section a:hover{
+        cursor: crosshair;
+        width: 500px;
+        opacity: 1;
+        filter: contrast(120%);
+    }
+    footer{
+        text-align: center;
+        font-size:30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    header{
+        text-align: center;
+        box-shadow: 0 0 50px 10px;
+        border-radius: 10px;
+        background-color:#244f3f ;
+        padding: 1%;
+        border-color:#DAA520 ;
+        border-style: double;
+    }
+    body{
+        background-image: url(../../fotos/background.png);
+        background-repeat: no-repeat;
+        background-size:cover ;
+
+    }
+    h1{
+        color: #DAA520;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    footer{
+        color: #DAA520;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    }
+    a{
+        color: #DAA520;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cajas CSS</h1>
+    </header>
+    <section>
+    <a href="./Cajas.html"><img src="../../fotos/cajas.png" alt="página_cajas"  style="width: 600px;height: 530px;display: inline-block;"></a>
+    <a href="./Figuras.html"><img src="../../fotos/figuras.png" alt="pagina_figura"  style="width: 600px;height: 530px;display: inline-block;"></a>
+    </section>
+    <footer>
+        <h2>Para volver a la pág anterior: </h2> <a href="../tema8_index.html">Pulsa Aquí</a>
+    </footer>
+</body>
+</html>

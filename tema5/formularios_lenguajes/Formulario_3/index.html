@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 3</title>
+    <meta name="author" content="José Carlos Reina Castro">
+</head>
+<body>
+    <a href="../../tema5_index.html">Volver a la pág anterior</a>
+    <h1>Formulario de pedido</h1>
+    <form action="proceso.php" method="post">
+    <label for="text">Nombre del cliente:</label><br>
+    <input type="text" name="nombre" id="name">
+    <br>
+    <br>
+    <label for="email">Correo electrónico:</label><br>
+    <input type="email" name="correo" id="correo">
+    <br><br>
+    <label for="date">Fecha deseada de entrega :</label><br>
+    <input type="date">
+    <br><br>
+    <label for="color">Color del producto:</label><br>
+    <input type="color">
+    <br><br>
+    <label for="range">Cantidad (1 al 10):</label><br>
+    <input type="range" name="range " id="range" min="0" max="10">
+    <br><br>
+    <label for="accesorios">Accesorios adicionales:</label><br>
+    
+    <select name="accesorios" id="accesorios" size="4">
+        <option value="funda">Funda protectora</option>
+        <option value="bateria">Batería adicional</option>
+        <option value="soporte">Soporte de mesa</option>
+        <option value="kit">Kit de limpieza</option>
+    </select>
+    <br>
+    <br>
+    <input type="checkbox" name="curso" id="curso">
+    <label for="condiciones">Acepto los términos del pedido</label><br><br>
+     <label for="comentarios">Comentarios o instrucciones especiales:</label><br>
+    <textarea name="comentario" id="comentario" cols="40" rows="5" placeholder="Indica detalles adicionales sobre tu pedido..."></textarea><br>
+    <br>
+
+    <input type="submit" value="Enviar pedido">
+
+
+    </form>
+</body>
+</html>
