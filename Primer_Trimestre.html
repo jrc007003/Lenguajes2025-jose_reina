@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indice Primer trimestre</title>
+    <meta content="author" content="José Carlos Reina Casrtro">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            text-align: center;
+            width: 90%;
+            max-width: 400px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 1.5rem;
+        }
+
+        .button-group {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .btn {
+            display: block;
+            padding: 15px 25px;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+            border-radius: 8px;
+            transition: transform 0.2s, background-color 0.2s;
+        }
+
+        .btn-individual {
+            background-color: #3498db;
+        }
+
+        .btn-grupal {
+            background-color: #2ecc71;
+        }
+¡
+        .btn:hover {
+            transform: translateY(-3px);
+            filter: brightness(110%);
+        }
+
+        .btn:active {
+            transform: translateY(0);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Índice de Trabajos</h1>
+        
+        <div class="button-group">
+            <a href="./pag_principal/index.html" class="btn btn-individual">Trabajo Individual</a>
+            
+            <a href="./Lenguages_chuches-main/index.html" class="btn btn-grupal">Trabajo Grupal</a>
+        </div>
+    </div>
+
+</body>
+</html>
